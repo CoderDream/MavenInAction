@@ -26,7 +26,7 @@
     </fileSets>
     <requiredProperties>
         <requiredProperty key="groupId">
-            <defaultValue>com.coderdream</defaultValue>
+            <defaultValue>com.zheng.archetypestudy</defaultValue>
         </requiredProperty>
     </requiredProperties>
 </archetype-catalog>

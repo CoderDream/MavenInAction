@@ -357,8 +357,28 @@ mvn archetype:generate -B \
 -DarchetypeVersion=6.0.0 \
 -DgroupId=com.coderdream \
 -DartifactId=archetype-test \
--Dpackage=com.coderdream \
--Dversion=1.0-SNAPSHOT
+-Dversion=1.0-SNAPSHOT \
+-Dpackage=com.coderdream
+```
+## [《maven实战》十四、archetype](https://www.jianshu.com/p/3c9e29e6eacf)
+
+###  编写自己的archetype项目
+
+- demo0301 交互式
+```
+mvn archetype:generate \
+-DarchetypeGroupId=com.zheng.archetypestudy \
+-DarchetypeArtifactId=archetype-test \
+-DarchetypeVersion=1.0-SNAPSHOT
+```
+- demo0302 批处理
+```
+mvn archetype:generate -B \
+-DarchetypeGroupId=com.zheng.archetypestudy \
+-DarchetypeArtifactId=archetype-test \
+-DarchetypeVersion=1.0-SNAPSHOT \
+-DartifactId=demo0302 \
+-Dversion=1.0
 ```
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archetype-descriptor name="activiti-archetype-unittest3">
+<archetype-descriptor name="activiti-archetype-unittest2">
   <fileSets>
     <fileSet filtered="false" packaged="false">
       <directory>src/main/java</directory>

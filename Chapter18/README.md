@@ -340,6 +340,38 @@ $ mvn archetype:generate -B \
 - 1、修改pom.xml 中的 groupId、artifactId 和 version：
 ```xml
 <groupId>org.activiti</groupId>
-<artifactId>activiti-archetype-unittest3</artifactId>
+<artifactId>activiti-archetype-unittest2</artifactId>
 <version>6.0.0</version>
 ```
+
+- 2、修改其他文件
+
+
+
+- 3、成功执行批处理命令
+```
+mvn archetype:generate -B \
+-DarchetypeCatalog=local \
+-DarchetypeGroupId=org.activiti \
+-DarchetypeArtifactId=activiti-archetype-unittest2 \
+-DarchetypeVersion=6.0.0 \
+-DgroupId=com.coderdream \
+-DartifactId=archetype-test \
+-Dpackage=com.coderdream \
+-Dversion=1.0-SNAPSHOT
+```
+
+
+
+### 参考文档
+
+1.  [Maven - 自定义archetype](https://www.jianshu.com/p/ac9b7d0556d1)
+2.  [Selenium2-Java-QuickStart-Archetype](https://github.com/sebarmeli/Selenium2-Java-QuickStart-Archetype)
+3.  [编写自己的SpringBoot-starter](https://www.cnblogs.com/yuansc/p/9088212.html)
+4.  [Maven 自定义archeType](https://www.jianshu.com/p/724a9fa7b37a)
+5.  [《maven实战》十四、archetype](https://www.jianshu.com/p/3c9e29e6eacf)
+6.  [IDEA中maven项目创建并使用自己的archetype](https://blog.csdn.net/qq_21251983/article/details/52252970)
+7.  [自定义Maven模板(Archetype)](https://blog.csdn.net/TKDK_bot/article/details/85296918)
+8.  [Maven自定义archetype生成项目骨架](https://blog.csdn.net/jeikerxiao/article/details/60324029)
+9.  [Maven自定义ArcheType踩过的坑](https://blog.csdn.net/wanxu12345678910/article/details/55099461)
+10.  [maven自定义catalog创建archetype](https://blog.csdn.net/lff1991/article/details/76550363)

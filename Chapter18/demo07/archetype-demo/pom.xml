@@ -4,10 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.activiti</groupId>
-    <artifactId>activiti-archetype-unittest3</artifactId>
+
+    <parent>
+        <groupId>org.activiti</groupId>
+        <artifactId>archetypes</artifactId>
+        <relativePath>..</relativePath>
+        <version>6.0.0</version>
+    </parent>
+
+    <artifactId>activiti-archetype-unittest2</artifactId>
     <version>6.0.0</version>
-    <packaging>maven-archetype</packaging>
+    <packaging>jar</packaging>
 
     <name>Archetype - archetype-demo</name>
 

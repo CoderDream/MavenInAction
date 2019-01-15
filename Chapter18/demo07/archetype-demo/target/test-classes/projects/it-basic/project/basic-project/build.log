@@ -1,0 +1,45 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< archetype.it:basic-project >---------------------
+[INFO] Building basic-project 0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ basic-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Java\GitHub\MavenInAction\Chapter18\demo07\archetype-demo\target\test-classes\projects\it-basic\project\basic-project\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ basic-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Java\GitHub\MavenInAction\Chapter18\demo07\archetype-demo\target\test-classes\projects\it-basic\project\basic-project\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ basic-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Java\GitHub\MavenInAction\Chapter18\demo07\archetype-demo\target\test-classes\projects\it-basic\project\basic-project\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ basic-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Java\GitHub\MavenInAction\Chapter18\demo07\archetype-demo\target\test-classes\projects\it-basic\project\basic-project\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ basic-project ---
+[INFO] Surefire report directory: D:\Java\GitHub\MavenInAction\Chapter18\demo07\archetype-demo\target\test-classes\projects\it-basic\project\basic-project\target\surefire-reports
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running it.pkg.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in it.pkg.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ basic-project ---
+[INFO] Building jar: D:\Java\GitHub\MavenInAction\Chapter18\demo07\archetype-demo\target\test-classes\projects\it-basic\project\basic-project\target\basic-project-0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.203 s
+[INFO] Finished at: 2019-01-15T14:12:19+08:00
+[INFO] ------------------------------------------------------------------------

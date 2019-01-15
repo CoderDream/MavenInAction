@@ -334,3 +334,12 @@ $ mvn archetype:generate -B \
 [INFO] Final Memory: 15M/220M
 [INFO] ------------------------------------------------------------------------
 ```
+
+### 重构
+
+- 1、修改pom.xml 中的 groupId、artifactId 和 version：
+```xml
+<groupId>org.activiti</groupId>
+<artifactId>activiti-archetype-unittest3</artifactId>
+<version>6.0.0</version>
+```

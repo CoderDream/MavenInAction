@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archetype-catalog
-        xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd"
-        xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<archetype-descriptor name="activiti-archetype-unittest2">
 
     <fileSets>
         <fileSet filtered="true" packaged="true">
@@ -16,7 +13,7 @@
             <includes>
                 <include>activiti.cfg.xml</include>
                 <include>logback.xml</include>
-                <include>second_approve.bpmn20.xml</include>
+                <include>second_approve.bpmn</include>
             </includes>
         </fileSet>
         <fileSet filtered="true" packaged="true">
@@ -25,16 +22,13 @@
                 <include>**/*.java</include>
             </includes>
         </fileSet>
-        <fileSet filtered="true" packaged="true">
+        <fileSet filtered="true" packaged="false">
             <directory>src/test/resources</directory>
             <includes>
+                <include>activiti.cfg.xml</include>
+                <include>log4j.properties</include>
                 <include>my-process.bpmn20.xml</include>
             </includes>
         </fileSet>
     </fileSets>
-    <requiredProperties>
-        <requiredProperty key="groupId">
-            <defaultValue>com.zheng.archetypestudy</defaultValue>
-        </requiredProperty>
-    </requiredProperties>
-</archetype-catalog>
+</archetype-descriptor>

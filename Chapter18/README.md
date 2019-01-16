@@ -356,7 +356,7 @@ mvn archetype:generate -B \
 -DarchetypeArtifactId=activiti-archetype-unittest2 \
 -DarchetypeVersion=6.0.0 \
 -DgroupId=com.coderdream \
--DartifactId=archetype-test \
+-DartifactId=archetype-test2 \
 -Dversion=1.0-SNAPSHOT \
 -Dpackage=com.coderdream
 ```
@@ -395,3 +395,4 @@ mvn archetype:generate -B \
 8.  [Maven自定义archetype生成项目骨架](https://blog.csdn.net/jeikerxiao/article/details/60324029)
 9.  [Maven自定义ArcheType踩过的坑](https://blog.csdn.net/wanxu12345678910/article/details/55099461)
 10.  [maven自定义catalog创建archetype](https://blog.csdn.net/lff1991/article/details/76550363)
+11.  [手写Maven的archetype项目脚手架](https://www.cnblogs.com/hafiz/p/5515388.html)
